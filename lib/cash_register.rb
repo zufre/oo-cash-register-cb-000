@@ -21,9 +21,7 @@ class CashRegister
       items << title
     end
   end
-  def discount
-    @discount
-  end
+  
 
   def apply_discount
     if discount != 0
