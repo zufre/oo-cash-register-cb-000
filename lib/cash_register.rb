@@ -6,6 +6,9 @@ class CashRegister
     @discount = discount
   end
 
+  def total=(total)
+    @total = total
+  end
 
 
 end
